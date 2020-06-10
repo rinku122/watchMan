@@ -1,0 +1,33 @@
+.mymodal {
+  width: 50%;
+
+  position: fixed;
+  top: 10vh;
+  left: 30%;
+  height: fit-content;
+  animation-name: modalopen;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+}
+
+.btn {
+  width: 100%;
+  display: block;
+}
+@media (max-width: 800px) {
+  .mymodal {
+    width: 80%;
+    left: 10%;
+  }
+}
+
+@keyframes modalopen {
+  from {
+    opacity: 0;
+    top: -1000px;
+  }
+  to {
+    opacity: 1;
+    top: 10%;
+  }
+}

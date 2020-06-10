@@ -1,0 +1,4 @@
+{
+  "mongoURI": "mongodb+srv://rinku129:1221995@watchman.euqkn.mongodb.net/test?retryWrites=true&w=majority",
+  "jwtSecret": "secret"
+}
