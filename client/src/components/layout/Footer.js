@@ -12,25 +12,37 @@ const Footer = (props) => {
         <div className="links   self-hcenter">
           <ul className="flex">
             <li className="px-2">
-              <a href="https://github.com/devrinku">
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://github.com/devrinku">
                 <i className="fa fa-github fa-2x "></i>{" "}
               </a>
             </li>
             <li className="px-2">
               {" "}
-              <a href="https://www.instagram.com/rinku1221995/">
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://www.instagram.com/rinku1221995/">
                 <i className="fa fa-instagram fa-2x"></i>
               </a>
             </li>
             <li className="px-2">
               {" "}
-              <a href="https://www.facebook.com/rajesh.pardhan.3/">
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://www.facebook.com/rajesh.pardhan.3/">
                 <i className="fa fa-facebook fa-2x"></i>
               </a>
             </li>
             <li className="px-2">
               {" "}
-              <a href="https://twitter.com/Rajeshk29278950">
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://twitter.com/Rajeshk29278950">
                 <i className="fa fa-twitter fa-2x"></i>
               </a>
             </li>
